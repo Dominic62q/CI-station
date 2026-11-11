@@ -1,0 +1,1 @@
+{"data":{"repository":{"defaultBranchRef":{"name":"main"},"mergeQueue":{"entries":{"nodes":[{"position":1,"state":"MERGEABLE","enqueuedAt":"2026-11-10T10:00:00Z","pullRequest":{"number":12,"title":"Fix x","headRefOid":"aaaa111"}},{"position":2,"state":"AWAITING_CHECKS","enqueuedAt":"2026-11-10T10:05:00Z","pullRequest":{"number":13,"title":"Add y","headRefOid":"bbbb222"}}]}}}}}

@@ -1,0 +1,9 @@
+{
+  "name": "station",
+  "displayName": "Station",
+  "version": "0.1.0",
+  "description": "Sends minimal Claude Code session and tool metadata to a local Station spool file. Never blocks Claude; stores no prompts, file contents or command text.",
+  "author": { "name": "Dominic Quainoo-Amuah" },
+  "license": "MIT",
+  "keywords": ["observability", "local", "dashboard"]
+}

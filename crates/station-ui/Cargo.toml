@@ -1,0 +1,16 @@
+[package]
+name = "station-ui"
+version.workspace = true
+edition = "2024"
+license.workspace = true
+
+[[bin]]
+name = "station-ui"
+path = "src/main.rs"
+
+[dependencies]
+station-core = { path = "../station-core" }
+# Pinned to a `dev` revision (Rune is pre-release; `dev` is never rewritten).
+rune = { git = "https://github.com/anomalyco/rune", rev = "2e4999f67064dd351e504bbdaaf71f0b601e2114" }
+rune-kit = { git = "https://github.com/anomalyco/rune", rev = "2e4999f67064dd351e504bbdaaf71f0b601e2114" }
+rune-theme-opencode = { git = "https://github.com/anomalyco/rune", rev = "2e4999f67064dd351e504bbdaaf71f0b601e2114" }

@@ -1,0 +1,14 @@
+[package]
+name = "station-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "station"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+station-core = { path = "../station-core" }

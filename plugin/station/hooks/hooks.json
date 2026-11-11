@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "SessionStart":       [{ "hooks": [{ "type": "command", "async": true, "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}\"/scripts/station_hook.py" }] }],
+    "SessionEnd":         [{ "hooks": [{ "type": "command", "async": true, "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}\"/scripts/station_hook.py" }] }],
+    "UserPromptSubmit":   [{ "hooks": [{ "type": "command", "async": true, "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}\"/scripts/station_hook.py" }] }],
+    "Stop":               [{ "hooks": [{ "type": "command", "async": true, "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}\"/scripts/station_hook.py" }] }],
+    "StopFailure":        [{ "hooks": [{ "type": "command", "async": true, "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}\"/scripts/station_hook.py" }] }],
+    "PreToolUse":         [{ "hooks": [{ "type": "command", "async": true, "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}\"/scripts/station_hook.py" }] }],
+    "PostToolUse":        [{ "hooks": [{ "type": "command", "async": true, "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}\"/scripts/station_hook.py" }] }],
+    "PostToolUseFailure": [{ "hooks": [{ "type": "command", "async": true, "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}\"/scripts/station_hook.py" }] }],
+    "SubagentStart":      [{ "hooks": [{ "type": "command", "async": true, "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}\"/scripts/station_hook.py" }] }],
+    "SubagentStop":       [{ "hooks": [{ "type": "command", "async": true, "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}\"/scripts/station_hook.py" }] }],
+    "Notification":       [{ "hooks": [{ "type": "command", "async": true, "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}\"/scripts/station_hook.py" }] }],
+    "PermissionRequest":  [{ "hooks": [{ "type": "command", "async": true, "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}\"/scripts/station_hook.py" }] }],
+    "CwdChanged":         [{ "hooks": [{ "type": "command", "async": true, "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}\"/scripts/station_hook.py" }] }]
+  }
+}
